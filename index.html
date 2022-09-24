@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <kafa>
+    <meta karakter kümesi="UTF-8" />
+    <title>Merhaba Dünya</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Bunu üretimde kullanmayın: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+    
+      function Uygulamam() {
+        dönüş <h1>Merhaba dünya!</h1>;
+      }
+
+      const kapsayıcı = document.getElementById('root');
+      const root = ReactDOM.createRoot(konteyner);
+      root.render(<Uygulamam />);
+
+    </script>
+    <!--
+      Not: Bu sayfa React'i denemek için harika bir yoldur ancak üretim için uygun değildir.
+      JSX'i tarayıcıda Babel ile yavaş yavaş derler ve büyük bir React geliştirme yapısı kullanır.
+
+      JSX ile üretime hazır kurulum için bu bölümü okuyun:
+      https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
+
+      Daha büyük bir projede, bunun yerine JSX içeren entegre bir araç zinciri kullanabilirsiniz:
+      https://reactjs.org/docs/create-a-new-react-app.html
+
+      React'i JSX olmadan da kullanabilirsiniz, bu durumda Babel'i kaldırabilirsiniz:
+      https://reactjs.org/docs/react-without-jsx.html
+    -->
+  </body>
+</html>
