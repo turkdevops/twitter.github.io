@@ -6,7 +6,7 @@
     "build:css": "./scripts/optimize_css; ./scripts/clean_feather_css"
   },
   "devDependencies": {
-    "cssnano": "^4.1.11",
+    "cssnano": "^5.1.14",
     "postcss-cli": "^10.1.0"
   }
 }
